@@ -217,6 +217,17 @@ img { max-width: 100%; height: auto; display: block; }
 
 .hero-photo { display: flex; justify-content: center; }
 
+.hero-photo img {
+  width: 100%;
+  max-width: 380px;
+  height: auto;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: 50% 25%;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
 .photo-placeholder {
   width: 100%;
   max-width: 380px;

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ЗАМЕНИТЬ: имя и описание -->
+  <title>Обо мне — Анна Соколова, семейный психолог</title>
+  <meta name="description" content="Мой путь в семейную психологию, образование и подход к работе. Работаю с парами и семьями очно в Москве и онлайн.">
+  <meta property="og:title" content="Обо мне — Анна Соколова, семейный психолог">
+  <meta property="og:type" content="website">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <!-- ЗАМЕНИТЬ: ваше имя -->
+      <a class="logo" href="index.html#hero">Анна Соколова</a>
+      <nav class="nav" aria-label="Основная навигация">
+        <a href="index.html#benefits">С чем помогаю</a>
+        <a href="index.html#services">Услуги</a>
+        <a href="index.html#contacts">Контакты</a>
+        <a href="index.html#form" class="nav-cta">Записаться</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <div class="container about-inner">
+        <div class="hero-photo">
+          <!-- ЗАМЕНИТЬ: ваше фото — <img src="img/photo.webp" alt="Анна Соколова, семейный психолог"> -->
+          <div class="photo-placeholder" role="img" aria-label="Фото специалиста (заменить)">фото</div>
+        </div>
+        <div class="about-text">
+          <h1>Обо мне</h1>
+          <!-- ЗАМЕНИТЬ: ваша история -->
+          <p>
+            Меня зовут Анна. Я семейный психолог и психотерапевт — уже восемь лет
+            помогаю парам и родителям находить путь друг к другу, даже когда
+            кажется, что говорить больше не о чем.
+          </p>
+          <p>
+            В профессию я пришла через собственный опыт: когда-то мне самой
+            помогла семейная терапия, и я поняла, что хочу уметь то же, что
+            умел тогда мой терапевт. С тех пор многое изменилось, но главное
+            осталось — я верю, что близость можно возвращать.
+          </p>
+          <p>
+            Мои клиенты говорят, что на сессиях со мной спокойно и безопасно:
+            я не ищу виноватых и не даю готовых рецептов. Вместо этого я помогаю
+            услышать настоящие чувства — свои и близкого человека.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2>Образование и подготовка</h2>
+        <!-- ЗАМЕНИТЬ: ваши дипломы и курсы -->
+        <ul class="trust-list about-list">
+          <li><span class="trust-year">2016</span> МГУ имени М. В. Ломоносова, факультет психологии, клиническая психология</li>
+          <li><span class="trust-year">2018</span> Сертификация по эмоционально-фокусированной терапии (ЭФТ), ICEEFT</li>
+          <li><span class="trust-year">2020</span> Специализация «Системная семейная психотерапия», Институт практической психологии</li>
+          <li><span class="trust-year">2021</span> Курс «Работа с парами после предательства»</li>
+          <li><span class="trust-year">2023</span> Регулярная супервизия и личная терапия — непрерывно</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container narrow about-principles">
+        <h2>Как я работаю</h2>
+        <ul class="trust-list">
+          <li><strong>Без оценок.</strong> Моя задача — не понять, кто прав, а помочь вам снова быть на одной стороне.</li>
+          <li><strong>Конфиденциально.</strong> Всё, что звучит на сессии, остаётся между нами. Без исключений.</li>
+          <li><strong>Научно.</strong> Работаю методом эмоционально-фокусированной терапии — его эффективность подтверждена десятками исследований.</li>
+          <li><strong>В вашем темпе.</strong> Никакого давления: двигаемся настолько быстро, насколько вам комфортно.</li>
+        </ul>
+
+        <div class="about-cta">
+          <p>Хотите познакомиться и понять, подхожу ли я вам?</p>
+          <a href="index.html#form" class="btn btn-primary">Записаться на консультацию</a>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contacts" class="section section-alt site-footer">
+      <div class="container">
+        <p class="copyright">© <span id="year"></span> Анна Соколова. <a href="index.html#contacts">Контакты</a></p>
+      </div>
+    </footer>
+
+  </main>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

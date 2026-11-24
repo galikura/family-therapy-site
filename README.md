@@ -47,6 +47,10 @@ family-therapy-site/
 ├── SPEC.md                    # Исходная спецификация проекта
 ├── КАК-РЕДАКТИРОВАТЬ.md       # Инструкция по изменению содержимого
 ├── КАК-РЕДАКТИРОВАТЬ.txt      # Текстовая версия инструкции
+├── .claude/
+│   └── skills/
+│       └── family-therapy-site/
+│           └── SKILL.md       # Инструкции Claude Code для работы с проектом
 ├── .gitignore                 # Исключения для локальных файлов и секретов
 └── README.md                  # Этот документ
 ```
@@ -324,3 +328,4 @@ node --check server/worker.js
 - [SPEC.md](./SPEC.md) — исходные требования, дизайн-система и критерии приёмки.
 - [КАК-РЕДАКТИРОВАТЬ.md](./КАК-РЕДАКТИРОВАТЬ.md) — редактирование текстов, контактов и фотографий.
 - [server/README.md](./server/README.md) — пошаговая настройка Telegram-бота и Cloudflare Worker.
+- [.claude/skills/family-therapy-site/SKILL.md](./.claude/skills/family-therapy-site/SKILL.md) — структура проекта, команды и правила работы Claude Code с репозиторием.

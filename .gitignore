@@ -3,7 +3,13 @@
 .DS_Store
 Thumbs.db
 node_modules/
+
+# Локальные переменные окружения и секреты
+.env
+.env.*
+!.env.example
 .dev.vars
+.dev.vars.*
 
 # Локальные рабочие материалы, не относящиеся к исходному коду сайта
 /SKILL.md
